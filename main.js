@@ -25,8 +25,8 @@ console.log(isOddNumber(14));
 
 // ここにfactorial関数を作る
 const factorial = function(num) {
-  let result = 1;
-  for (let i = num; i > 0; i--) {
+  const result = 1;
+  for (const i = num; i > 0; i--) {
     result *= i;
   }
   return result;
@@ -56,9 +56,9 @@ console.log(saiki(5));
 
 // ここにconvertFirstCharacterToUpperCase関数を作る
 const convertFirstCharacterToUpperCase = str => {
-  let firstChar = str.charAt(0);
-  let firstUpper = firstChar.toUpperCase();
-  let fullStr = firstUpper + str.slice(1);
+  const firstChar = str.charAt(0);
+  const firstUpper = firstChar.toUpperCase();
+  const fullStr = firstUpper + str.slice(1);
   return fullStr;
 };
 
