@@ -25,8 +25,8 @@ console.log(isOddNumber(14));
 
 // ここにfactorial関数を作る
 const factorial = function(num) {
-  const result = 1;
-  for (const i = num; i > 0; i--) {
+  let result = 1;
+  for (let i = num; i > 0; i--) {
     result *= i;
   }
   return result;
